@@ -20,12 +20,14 @@ LLVM_IAS=1 "
 
 # -j$(nproc --all)
 
-# make clean && make mrproper
+# sudo make clean && sudo make mrproper
 
 # CONFIG_SECTION_MISMATCH_WARN_ONLY=y
 
 echo > build_config.log
 echo > build_kernel.log
+
+# make $args menuconfig
 
 make $args sm8350_defconfig | tee build_config.log
 
