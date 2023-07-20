@@ -1,7 +1,12 @@
 #!/bin/bash
 
-# export PATH="/home/luckyzyx/toolchains/neutron-clang/bin:$PATH"
-export PATH="/home/luckyzyx/toolchains/llvm-r399163b/clang-r383902b/bin:$PATH"
+export PATH="/home/luckyzyx/toolchains/clang-r383902b/bin:$PATH"
+
+# Compiler: Android (6877366 based on r383902b1)
+# clang version 11.0.2 (https://android.googlesource.com/toolchain/llvm-project b397f81060ce6d701042b782172ed13bee898b79)
+
+# sudo apt-get install gcc-aarch64-linux-gnu
+# sudo apt-get install gcc-arm-linux-gnueabi
 
 args="-j4 \
 O=out \

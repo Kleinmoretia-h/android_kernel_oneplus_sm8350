@@ -149,3 +149,5 @@ x509.genkey
 
 # generated defconfigs
 arch/*/configs/vendor/*_defconfig
+build_config.log
+build_kernel.log
