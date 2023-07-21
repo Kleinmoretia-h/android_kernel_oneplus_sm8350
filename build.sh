@@ -8,7 +8,7 @@ export PATH="/home/luckyzyx/toolchains/clang-r383902b/bin:$PATH"
 # sudo apt-get install gcc-aarch64-linux-gnu
 # sudo apt-get install gcc-arm-linux-gnueabi
 
-args="-j4 \
+args="-j6 \
 O=out \
 ARCH=arm64 \
 CC=clang \
@@ -20,7 +20,7 @@ LLVM_IAS=1 "
 
 # -j$(nproc --all)
 
-# sudo make clean && sudo make mrproper
+make clean && sudo make mrproper
 
 # CONFIG_SECTION_MISMATCH_WARN_ONLY=y
 
