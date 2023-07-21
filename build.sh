@@ -28,6 +28,8 @@ echo > build_config.log
 echo > build_kernel.log
 
 # make $args menuconfig
+# vendor/lahaina_QGKI.config
+# sm8350_defconfig
 
 make $args sm8350_defconfig | tee build_config.log
 

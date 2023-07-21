@@ -17,7 +17,7 @@
 #include <trace/hooks/fpsimd.h>
 #include <trace/hooks/topology.h>
 #include <trace/hooks/debug.h>
-#include <trace/hooks/secureguard.h>
+// #include <trace/hooks/secureguard.h>
 #include <trace/hooks/vh_vmscan.h>
 #include <trace/hooks/oplus_ufs.h>
 #include <trace/hooks/vh_af_packet.h>
@@ -69,11 +69,11 @@ EXPORT_TRACEPOINT_SYMBOL_GPL(android_vh_alter_rwsem_list_add);
 EXPORT_TRACEPOINT_SYMBOL_GPL(android_vh_alter_futex_plist_add);
 EXPORT_TRACEPOINT_SYMBOL_GPL(android_vh_is_fpsimd_save);
 EXPORT_TRACEPOINT_SYMBOL_GPL(android_vh_ipi_stop);
-EXPORT_TRACEPOINT_SYMBOL_GPL(android_vh_secureguard_pre_handle);
-EXPORT_TRACEPOINT_SYMBOL_GPL(android_vh_secureguard_post_handle);
-EXPORT_TRACEPOINT_SYMBOL_GPL(android_vh_secureguard_exec_block);
-EXPORT_TRACEPOINT_SYMBOL_GPL(android_vh_secureguard_mount_block);
-EXPORT_TRACEPOINT_SYMBOL_GPL(android_vh_secureguard_send_to_user);
+// EXPORT_TRACEPOINT_SYMBOL_GPL(android_vh_secureguard_pre_handle);
+// EXPORT_TRACEPOINT_SYMBOL_GPL(android_vh_secureguard_post_handle);
+// EXPORT_TRACEPOINT_SYMBOL_GPL(android_vh_secureguard_exec_block);
+// EXPORT_TRACEPOINT_SYMBOL_GPL(android_vh_secureguard_mount_block);
+// EXPORT_TRACEPOINT_SYMBOL_GPL(android_vh_secureguard_send_to_user);
 EXPORT_TRACEPOINT_SYMBOL_GPL(android_vh_set_swappiness);
 EXPORT_TRACEPOINT_SYMBOL_GPL(android_vh_set_inactive_ratio);
 EXPORT_TRACEPOINT_SYMBOL_GPL(android_vh_check_throttle);
